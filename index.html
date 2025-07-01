@@ -5,22 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Charishma Garikapati | Data Scientist Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/123456789?v=4" />
+  <link rel="icon" href="https://media.licdn.com/dms/image/D5603AQE4qTk6QxPFSQ/profile-displayphoto-shrink_400_400/0/1683568160427?e=1723680000&v=beta&t=88-M_0nBDcTQ9aOtJZWigkNwYYdeCPMEKmEt5Nmo1V8" />
 </head>
 <body>
+  <div class="animated-bg">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+  </div>
   <div class="container">
-    <header>
-      <img src="https://media.licdn.com/dms/image/D5603AQE4qTk6QxPFSQ/profile-displayphoto-shrink_400_400/0/1683568160427?e=1723680000&v=beta&t=88-M_0nBDcTQ9aOtJZWigkNwYYdeCPMEKmEt5Nmo1V8" alt="Profile" class="profile-img"/>
+    <header class="glass header-card">
       <h1>Charishma Garikapati</h1>
-      <h2>Data Scientist & Generative AI Engineer</h2>
+      <h2>Data Scientist &amp; Generative AI Engineer</h2>
       <p class="about">
-        As a Data Scientist and Generative AI Engineer, I specialize in designing and deploying <strong>premium AI systems</strong> that bridge the gap between cutting-edge research and real-world business impact. My passion is building powerful solutions at the intersection of <strong>LLMs, Generative AI, NLP, bots, and cloud data engineering</strong>—always with a focus on scalability, reliability, and delivering measurable value.<br><br>
-        From context-aware chatbots and multi-agent automation to voice-driven assistants and advanced document Q&amp;A platforms, I bring hands-on experience developing robust, production-grade applications.<br><br>
-        <a class="connect" href="mailto:charishmag21@gmail.com">charishmag21@gmail.com</a> &nbsp;|&nbsp;
-        <a class="connect" href="https://www.linkedin.com/in/charishmagarikapati/" target="_blank">LinkedIn</a> &nbsp;|&nbsp;
-        Toronto, Canada
+        As a Data Scientist and Generative AI Engineer, I specialize in designing and deploying <strong>premium AI systems</strong> that bridge the gap between cutting-edge research and real-world business impact. My passion is building powerful solutions at the intersection of <strong>LLMs, Generative AI, NLP, bots, and cloud data engineering</strong>—always with a focus on scalability, reliability, and delivering measurable value.
       </p>
+      <p class="about2">
+        From context-aware chatbots and multi-agent automation to voice-driven assistants and advanced document Q&amp;A platforms, I bring hands-on experience developing robust, production-grade applications.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:charishmag21@gmail.com">charishmag21@gmail.com</a>
+        <a href="https://www.linkedin.com/in/charishmagarikapati/" target="_blank">LinkedIn</a>
+        <a class="resume-link" href="Charishma_Garikapati.pdf" target="_blank">Download Resume (PDF)</a>
+      </div>
     </header>
+
     <section class="skills glass">
       <h3>Technical Skills</h3>
       <ul>
@@ -33,56 +42,105 @@
         <li><strong>Tools & IDEs:</strong> VS Code, PyCharm, Spyder, Jupyter Notebook</li>
       </ul>
     </section>
+
     <section class="projects-section">
       <h3>Featured Projects</h3>
-      <div class="projects-grid">
+      <div class="projects-list">
+        <div class="glass project-card">
+          <h4>University Chatbot (LangGraph Multi-Agent System)</h4>
+          <ul>
+            <li>Designed and implemented a global university chatbot using LangGraph and multi-agent LLM architecture.</li>
+            <li>Scaled from Northeastern University to support all global universities, with dynamic filtering and real-time support.</li>
+            <li>Integrated Mistral, Vector DB, and memory chains for institution-specific responses.</li>
+          </ul>
+          <div class="stack">React, Tailwind CSS, LangGraph, LlamaIndex, Together.ai API, Mistral, Flask, FastAPI, Python, Pinecone, Vector DB, Git, Netlify, Render</div>
+          <div class="project-links">
+            <a href="https://unibotai.netlify.app" target="_blank" class="btn">Live Demo</a>
+            <a href="https://github.com/charishmag21/university-bot" target="_blank" class="btn">GitHub</a>
+          </div>
+        </div>
+        <!-- Audio-Driven AI Assistant -->
+        <div class="glass project-card">
+          <h4>Audio-Driven AI Assistant</h4>
+          <ul>
+            <li>Developed a voice-driven Q&A system using Whisper and LLMs for accurate, context-aware answer retrieval.</li>
+            <li>Built seamless UI and optimized speech-to-text for business deployment.</li>
+          </ul>
+          <div class="stack">Whisper Model, meta-llama/Llama-3.2-3B-Instruct, Flask</div>
+        </div>
+        <!-- HR Operations Automation -->
+        <div class="glass project-card">
+          <h4>HR Operations Automation using Vertex AI</h4>
+          <ul>
+            <li>Building a suite of AI agents with Google Cloud Agent Builder for natural language access to HR resources and payroll data.</li>
+            <li>Developed serverless backend with Cloud Run and integrated BigQuery for reporting workflows.</li>
+          </ul>
+          <div class="stack">Google Cloud Agent Builder, Cloud Run, Cloud Storage, BigQuery, Python, SQL, Gemini</div>
+        </div>
+        <!-- United Way Greater Toronto -->
+        <div class="glass project-card">
+          <h4>Topic Modelling for Community Outreach Insights</h4>
+          <ul>
+            <li>Conducted topic modelling on outreach communications from 100+ communities to identify key themes and concerns.</li>
+            <li>Preprocessed unstructured text data from emails, social posts, newsletters using NLP techniques (tokenization, stopword removal).</li>
+            <li>Generated insights to support communication strategy and program alignment.</li>
+          </ul>
+          <div class="stack">Python, Pandas, NLTK, Scikit-learn, Jupyter Notebook, BERT, Llama</div>
+        </div>
+        <div class="glass project-card">
+          <h4>Socio-Economic Trend Analysis for Peel, Toronto, and York</h4>
+          <ul>
+            <li>Analyzed 30 years of socio-economic data to uncover trends in poverty, financial stability, and housing across regions.</li>
+            <li>Disaggregated analysis by race, immigration status, income level, and age.</li>
+            <li>Created data visualizations and executive-level presentations to support community initiatives.</li>
+          </ul>
+          <div class="stack">Tableau, Power BI, Pandas, Random Forest, Streamlit</div>
+        </div>
         <div class="glass project-card">
           <h4>Database Query Generation Platform</h4>
-          <p>LLM-powered platform that converts natural language to SQL queries, making databases accessible for everyone.</p>
-          <div class="stack">Flask, OpenAI API, SQL-BERT, MySQL, TensorFlow</div>
+          <ul>
+            <li>Developed a platform leveraging LLMs to convert natural language to SQL for non-technical users.</li>
+            <li>Designed a user-friendly web interface; integrated pre-trained LLM for accurate query generation.</li>
+            <li>Enhanced system scalability and robustness.</li>
+          </ul>
+          <div class="stack">Flask, OpenAI API, SQL-BERT, MySQL, TensorFlow, Postman</div>
         </div>
         <div class="glass project-card">
           <h4>KnowHub (Knowledge Hub)</h4>
-          <p>Retrieval-Augmented Generation application enabling users to query documents and receive precise, context-aware answers.</p>
-          <div class="stack">Python, Streamlit, Pinecone, OpenAI API, BERT, Llama</div>
+          <ul>
+            <li>Built a Retrieval-Augmented Generation (RAG) app to let users query documents and receive precise, relevant answers.</li>
+            <li>Integrated document retrieval and custom training.</li>
+          </ul>
+          <div class="stack">Streamlit, Pinecone Vector DB, OpenAI API</div>
         </div>
         <div class="glass project-card">
-          <h4>Audio-Driven AI Assistant</h4>
-          <p>Real-time audio-to-text and answer retrieval using Whisper and LLMs, with seamless UI/UX for business deployment.</p>
-          <div class="stack">Whisper Model, meta-llama/Llama-3.2-3B-Instruct, Flask</div>
-        </div>
-        <div class="glass project-card">
-          <h4>United Way Data Analytics</h4>
-          <p>Topic modeling and actionable visual insights for nonprofit community outreach and trend analysis in Toronto and GTA.</p>
-          <div class="stack">Python, Tableau, BERT, Llama, Power BI, Streamlit</div>
-        </div>
-        <div class="glass project-card">
-          <h4>HR Operations Automation (Vertex AI)</h4>
-          <p>AI agents and serverless backend for automated, natural language HR resource access and analytics.</p>
-          <div class="stack">Google Cloud Agent Builder, Cloud Run, BigQuery, Gemini, Python</div>
-        </div>
-        <div class="glass project-card">
-          <h4>University Chatbot (LangGraph Multi-Agent System)</h4>
-          <p>Global multi-agent chatbot for universities, integrating LLMs, custom UI, and vector DB for academic support worldwide.</p>
-          <div class="stack">React, Tailwind CSS, LangGraph, LlamaIndex, Mistral, Pinecone, FastAPI</div>
+          <h4>Email Classification System</h4>
+          <ul>
+            <li>Built AI-driven email classification system, reducing manual intervention by 80%.</li>
+            <li>Developed and optimized Naive Bayes and SVM models, and built scalable preprocessing pipelines.</li>
+          </ul>
+          <div class="stack">SVM, Naive Bayes, TF-IDF, Word Embeddings, NLTK</div>
         </div>
       </div>
     </section>
+
     <section class="glass edu-section">
       <h3>Education</h3>
       <ul>
-        <li><strong>Masters in Data Analytics, Applied Machine Intelligence</strong> — Northeastern University</li>
-        <li><strong>Bachelor of Engineering, Information Technology</strong> — Osmania University</li>
+        <li><strong>Masters in Data Analytics, Applied Machine Intelligence</strong> — Northeastern University - CGPA 3.72</li>
+        <li><strong>Bachelor of Engineering, Information Technology</strong> — Osmania University - CGPA 7.9</li>
       </ul>
     </section>
     <section class="glass cert-section">
       <h3>Certifications</h3>
       <ul>
-        <li>Deep Learning Specialization – deeplearning.ai</li>
-        <li>ML Model Deployment & Operations – Databricks</li>
-        <li>AI Associate – Salesforce</li>
-        <li>Machine Learning Specialization – Stanford University</li>
-        <li>Python for Everybody – University of Michigan</li>
+        <li><strong>Introduction to Agents - Hugging Face</strong></li>
+        <li><strong>Generative AI Fundamentals - Databricks</strong></li>
+        <li><strong>AI Associate - Salesforce</strong></li>
+        <li><strong>Machine Learning Specialization - Stanford University</strong></li>
+        <li><strong>Deep Learning Specialization - Deeplearning.ai</strong></li>
+        <li><strong>SQL for Data Science - University of California</strong></li>
+        <li><strong>Python for Everybody - University of Michigan</strong></li>
       </ul>
     </section>
     <footer>
