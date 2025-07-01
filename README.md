@@ -54,6 +54,11 @@ Data Scientist & AI Engineer specializing in applied AI, NLP, LLMs, and analytic
 
 ---
 
+## Resume
+[Download My Resume](Charishma_Garikapati.pdf)
+
+---
+
 ## 📫 Contact
 
 - **Email:** charishmag21@gmail.com
