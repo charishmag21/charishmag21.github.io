@@ -1,6 +1,3 @@
-# charishmagarikapati.github.io
-Showcase of AI and Data Science projects, resume, and certifications by Charishma Garikapati.
-
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/charishmagarikapati/)  
 📍 Toronto, Canada  
 ✉️ charishmag21@gmail.com  
@@ -9,19 +6,27 @@ Showcase of AI and Data Science projects, resume, and certifications by Charishm
 
 ## 👋 About Me
 
-Data Scientist & AI Engineer specializing in applied AI, NLP, LLMs, and analytics. I build smart systems, transform data into actionable insights, and love solving real-world problems.
+As a Data Scientist and Generative AI Engineer, I specialize in designing and deploying **premium AI systems** that bridge the gap between cutting-edge research and real-world business impact. My passion is building powerful solutions at the intersection of **LLMs, Generative AI, NLP, bots, and cloud data engineering**—always with a focus on scalability, reliability, and delivering measurable value.
+
+From **context-aware chatbots and multi-agent automation** to **voice-driven assistants** and advanced document Q&A platforms, I bring hands-on experience developing robust, production-grade applications. I’ve fine-tuned models like GPT, BERT, and Llama, orchestrated intelligent bots with frameworks such as LangChain and LangGraph, and architected cloud-native pipelines on GCP, Vertex AI, and Databricks.
+
+I combine deep technical expertise with a relentless drive for clarity—translating complex results into executive dashboards and compelling visualizations that empower both technical and business teams. Whether automating workflows or unlocking insights from data, I approach every project with energy, a growth mindset, and a commitment to excellence.
+
+**I’m open to impactful opportunities across Canada and globally—remote, hybrid, or on-site. If you value innovation, results, and clear communication, let’s connect.**
+
 
 ---
 
 ## 🛠️ Skills
 
-- **Languages:** Python, R, SQL
-- **ML/AI:** LLMs, GenAI, RAG, NLP, Computer Vision (CNN, GANs), Transformers
-- **Frameworks:** TensorFlow, Scikit-Learn, pandas, LlamaIndex, LangGraph
-- **Cloud:** GCP, Databricks, AWS, VertexAI
-- **Visualization:** Tableau, Power BI, Matplotlib
-- **Databases:** MySQL, Pinecone, FAISS, VectorDB
-- **Tools:** VS Code, PyCharm, Jupyter, Postman
+- **Programming & Scripting:** Python, R, SQL
+- **Machine Learning & AI:** LLMs, Generative AI, Retrieval-Augmented Generation (RAG), NLP, Computer Vision, Transformers, RNNs, LSTMs, CNNs, ANNs, GANs
+- **Libraries & Frameworks:** TensorFlow, Scikit-Learn, pandas, VertexAI Agent Builder, smolagents, LlamaIndex, LangGraph, Multi-agent Systems
+- **Cloud Platforms:** GCP (Google Cloud Platform), Databricks, AWS
+- **Visualization & Reporting:** Tableau, Matplotlib, Seaborn
+- **Databases & APIs:** MySQL, Pinecone, FAISS, Vector DB, OpenAI API, Together.ai API, Hugging Face, Yahoo Finance API
+- **Tools & IDEs:** Visual Studio Code, PyCharm, Spyder, Jupyter Notebook
+
 
 ---
 
